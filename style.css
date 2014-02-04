@@ -1,0 +1,82 @@
+body {
+	background: rgba(239,239,243,1.0);
+   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	
+}
+
+div#day {
+	font-family: "HelveticaNeue-Light";
+}
+div#timestamp {
+   width: 100%;
+   text-align: center;
+   font-size: 300px;
+   margin-bottom: 100px;
+}
+
+
+div#weather {
+	margin-left: 50px;	
+	float: left;
+}
+
+p#icon {
+	font-family: 'Weather';
+	display: inline;
+	font-size: 200px;
+	
+}
+
+p#temp {
+	display: inline;
+	font-size: 180px;	
+}
+
+
+div#bus {
+	margin-right: 50px;
+	float: right;
+}
+
+img#bus {
+	float: left;
+}
+
+div#predictions {
+	font-size: 50px;
+	display: inline;
+}
+
+p#firstPrediction {
+	font-family: "HelveticaNeue-Light";
+	font-size: 180px;
+	margin-bottom: 10px;
+	color: #dd1c1c;
+	display: inline;	
+}
+
+p#secondPrediction {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "HelveticaNeue-Light";
+	display: inline;	
+}
+
+p#thirdPrediction {
+	font-family: "HelveticaNeue-Light";
+	display: inline;
+}
+
+div#about {
+	margin-top: 100px;
+	float: right;
+	font-family: "HelveticaNeue-Light";
+	text-align: center;
+	width: 100%;
+}
+
+@font-face{font-family:'Weather';src:url('assets/weather.ttf') format('truetype')}
+
+
+
+
