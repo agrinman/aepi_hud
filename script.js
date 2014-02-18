@@ -192,11 +192,14 @@ function startTime() {
 		h = 12;
 	}
 	
+	var timetag = (today.getHours() < 12) ? "AM" : "PM";
+	
 	var m = correctTime(today.getMinutes());
 	var s = correctTime(today.getSeconds());
 	
 	document.getElementById("timestamp").innerHTML=h+":"+m+":"+s;
-	
+	//document.getElementById("timetag").innerHTML= timetag;
+
 	t = setTimeout(function(){startTime()}, 500);
 }
 

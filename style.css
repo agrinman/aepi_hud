@@ -75,6 +75,11 @@ div#about {
 	width: 100%;
 }
 
+div#timetag {
+	font-size: 30px;
+	display: inline;
+}
+
 @font-face{font-family:'Weather';src:url('assets/weather.ttf') format('truetype')}
 
 

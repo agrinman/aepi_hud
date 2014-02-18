@@ -61,6 +61,7 @@ function onload() {
 
 <!-- <div id="day"> Sunday 9/8/2013</div> -->
 <div id="timestamp"></div>
+<div id="timetag"></div>
 
 <div id="spinner"></div>
 
@@ -82,6 +83,7 @@ function onload() {
 
 <div id="about" hidden="true">
 <p>© MIT Alpha Epsilon Pi </p>
+<p> Report problems to <a href="mailto:aepi-hudcomm@mit.edu">aepi-hudcomm at mit.edu</a></p>
 </div>
 
 </body>
