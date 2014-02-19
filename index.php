@@ -29,6 +29,7 @@ function onload() {
 
 <script>
 	//make the initial call for weather
+	//USE YOUR OWN API KEY HERE 
 	$.ajax({
 	  url: "http://api.wunderground.com/api/dc203fba39f6674e/conditions/forecast/q/02215.json",
 	  dataType : "jsonp",		
